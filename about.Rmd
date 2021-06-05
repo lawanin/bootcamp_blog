@@ -5,7 +5,7 @@ title: "About"
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-This blog documents activity as it happens in the 2021 pilot of Kane's Free High  School Data Science Bootcamp. The course is adapted from [GOV:1005](https://www.davidkane.info/files/gov_1005_spring_2021.html), an introductory data science course which Harvard Preceptor David Kane taught. You can find out more [at the bootcamp website](https://bootcamp.davidkane.info). 
+This blog documents activity as it happens in the 2021 pilot of Kane's Free High  School Data Science Bootcamp. The course is adapted from [GOV 1005: Data](https://www.davidkane.info/files/gov_1005_spring_2021.html), an introductory data science course which Harvard Preceptor David Kane taught. You can find out more [at the bootcamp website](https://bootcamp.davidkane.info). 
 
 The course involves live lecture three times a week by Preceptor Kane, working tutorials written by Preceptor Kane and his staff, student final projects, and a thriving Discord, which forms the main subject of this blog. 
 
