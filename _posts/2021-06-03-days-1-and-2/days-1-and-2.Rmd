@@ -42,21 +42,34 @@ ggplot(top_errors, aes(`Names`, `Score`, fill = `Score`)) +
 
 We began the course on 6/1 with a class of 81 students. We have been able to install the necessary software (R and Rstudio) on every computer except one which we are still troubleshooting. On 6/2, we met again with a class of 79 students, inclduding new members from last-minute recommendations. On 6/4, we held our third meeting with roughly 60 students.
 
- Heather Li had the early lead, catching the most and most major mistakes the first two days. Because the errors were bigger, many people kept expressing their confusion in the Discord. Heather responded to nearly all of them. Nuo Wen
+Heather Li had the early lead, catching the most and most major mistakes the first two days. Because the errors were bigger, many people kept expressing their confusion in the Discord. Heather responded to nearly all of them. 
 
 ```{r heather}
 knitr::include_graphics("../../images/heather.png")
 ```
 
-Kudos to many, many others who have maintained a nice balance of asking and answering questions. It has been exciting to watch. Kudos also to libryan261, who asked a question, figured it out himself, and then posted how he solved it for the benefit of others. 
+Kudos to many, many others who have maintained a nice balance of asking and answering questions. It has been exciting to watch. Kudos also to Bryan (libryan261?), who asked a question, figured it out himself, and then posted how he solved it for the benefit of others. 
 
-Another shoutout to Ajay Malik, who taught the me and the other course staff how to format code better in Discord. 
+```{r bryanli}
+knitr::include_graphics("../../images/bryanli1.png") 
+```
+```{r bryanli}
+knitr::include_graphics("../../images/bryanli2.png") 
+```
 
-A final shoutout to Aryan rightly warned all to fear Preceptor. Kudos also to Machuey for his choice image.
+
+
+Another shoutout to Ajay Malik, who taught me how to format code better in Discord. 
+
+A final shutout to Aryan, having rightly warned all to fear Preceptor. Kudos also to Matthew Ru for his choice image.
 
 ```{r almight-preceptor}
 knitr::include_graphics("../../images/almighty_preceptor.png")
 ```
+
+
+Early Saturday afternoon, Ajay Malik and Nuo Wen Lei did well in catching errors 
+
 As of 6/5, the course has welcomed four students to its staff as teaching fellows: Heather Li, Nuo Wen Lei, Ajay Malik, and Stephanie Saab.
 
 ```{r}
