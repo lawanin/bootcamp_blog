@@ -16,20 +16,20 @@ library(gt)
 library(ggthemes)
 ```
 
-```{r}
+```{r error}
 errors <- tibble(Names = c("Emmanuel Buabeng", "Frank Li", "Stefan Arroyo-Cottier", "Frank Li", "Heather Li", "Heather Li", "Heather Li", "Ajay Malik", "Nuo Wen Lei", "Nuo Wen Lei", "Gabriel You", "Frank Li", "Yile Choi", "Daniel Wang", "Daniel Wang", "Fahim Ahmed", "Khush Makadia", "Ajay Malik", "Nuo Wen Lei", "Nuo Wen Lei", "Nuo Wen Lei", "Nuo Wen Lei", "Ajay Malik"),
    `Course Material` = c("GS-Tut. 1.7", "VisA 2.4", "VisA 6.5", "VisA 4.3", "VisB 2.6", "VisB 5.6", "VisB 3.2", "Tools-Tex.", "Vis C 2.3", "VisC 5.2", "VisC 5.6", "VisC 3.5", "VisA 3.5", "VisC 5.7", "VisC 4", "GS-Tut. 1", "VisC 7.8", "Term 2.5", "Term 3.3",  "Term 3.13", "Term 3.4", "Term 4.7", "Term 4.2" ),
    Date = c("6/1", "6/2", "6/2", "6/2", "6/2", "6/2", "6/2", "6/2", "6/3", "6/3", "6/3", "6/3", "6/3", "6/3", "6/3", "6/3", "6/3", "6/5", "6/5", "6/5", "6/5", "6/5", "6/5"))
 ```
 
-```{r}
+```{r error-plot}
 top_errors <- errors %>% 
   group_by(`Names`) %>% 
   summarize(`Score` = n()) %>% 
   arrange(desc(`Score`)) %>% 
   slice(1:5) 
 
-ggplot(top_errors, aes(`Names`, `Score`, fill = `Score`)) + 
+error_plot <- ggplot(top_errors, aes(`Names`, `Score`, fill = `Score`)) + 
   geom_col(bins = 5) +
   theme_clean() +
   theme(legend.position = "none") +
@@ -38,6 +38,8 @@ ggplot(top_errors, aes(`Names`, `Score`, fill = `Score`)) +
        x = "", 
        y = "Errors Caught", 
        caption = "Source: Kane's DS Bootcamp Discord (2021)")
+
+error_plot
 ```
 
 We began the course on 6/1 with a class of 81 students. We have been able to install the necessary software (R and Rstudio) on every computer except one which we are still troubleshooting. On 6/2, we met again with a class of 79 students, inclduding new members from last-minute recommendations. On 6/4, we held our third meeting with roughly 60 students.
@@ -61,19 +63,19 @@ Another shoutout to Ajay, who taught me how to format code better in Discord.
 
 A final shutout to Aryan, having rightly warned all to fear Preceptor. Kudos also to Matthew for his choice image.
 
-```{r almight-preceptor}
+```{r almighty-preceptor}
 knitr::include_graphics("../../images/almighty_preceptor.png")
 ```
 
 Early Saturday afternoon, Ajay and Nuo did well in catching errors. These have been corrected in your update.
 
-```{r terminal_errors}
+```{r terminal-errors}
 knitr::include_graphics("../../images/terminal_errors") 
 ```
 
 As of 6/5, the course has welcomed four students to its staff as teaching fellows: Heather Li, Nuo Wen Lei, Ajay Malik, and Stephanie Saab.
 
-```{r}
+```{r error-table}
 rmarkdown::paged_table(errors)
 ```
 
