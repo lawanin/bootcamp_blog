@@ -42,7 +42,7 @@ ggplot(top_errors, aes(`Names`, `Score`, fill = `Score`)) +
 
 We began the course on 6/1 with a class of 81 students. We have been able to install the necessary software (R and Rstudio) on every computer except one which we are still troubleshooting. On 6/2, we met again with a class of 79 students, inclduding new members from last-minute recommendations. On 6/4, we held our third meeting with roughly 60 students.
 
-Heather Li had the early lead, catching the most and most major mistakes the first two days. Because the errors were bigger, many people kept expressing their confusion in the Discord. Heather responded to nearly all of them. 
+Heather had the early lead, catching the most and most major mistakes the first two days. As the errors were major, many expressed confusion in the Discord. Heather responded to nearly all of them. 
 
 ```{r heather}
 knitr::include_graphics("../../images/heather.png")
@@ -57,18 +57,19 @@ knitr::include_graphics("../../images/bryanli1.png")
 knitr::include_graphics("../../images/bryanli2.png") 
 ```
 
+Another shoutout to Ajay, who taught me how to format code better in Discord. 
 
-
-Another shoutout to Ajay Malik, who taught me how to format code better in Discord. 
-
-A final shutout to Aryan, having rightly warned all to fear Preceptor. Kudos also to Matthew Ru for his choice image.
+A final shutout to Aryan, having rightly warned all to fear Preceptor. Kudos also to Matthew for his choice image.
 
 ```{r almight-preceptor}
 knitr::include_graphics("../../images/almighty_preceptor.png")
 ```
 
+Early Saturday afternoon, Ajay and Nuo did well in catching errors. These have been corrected in your update.
 
-Early Saturday afternoon, Ajay Malik and Nuo Wen Lei did well in catching errors 
+```{r bryanli}
+knitr::include_graphics("../../images/terminal_errors") 
+```
 
 As of 6/5, the course has welcomed four students to its staff as teaching fellows: Heather Li, Nuo Wen Lei, Ajay Malik, and Stephanie Saab.
 
