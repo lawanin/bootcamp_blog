@@ -53,7 +53,7 @@ Kudos to many, many others who have maintained a nice balance of asking and answ
 ```{r bryanli}
 knitr::include_graphics("../../images/bryanli1.png") 
 ```
-```{r bryanli}
+```{r bryanli2}
 knitr::include_graphics("../../images/bryanli2.png") 
 ```
 
@@ -67,7 +67,7 @@ knitr::include_graphics("../../images/almighty_preceptor.png")
 
 Early Saturday afternoon, Ajay and Nuo did well in catching errors. These have been corrected in your update.
 
-```{r bryanli}
+```{r terminal_errors}
 knitr::include_graphics("../../images/terminal_errors") 
 ```
 
