@@ -60,7 +60,7 @@ errors <- tibble(Names = c("Emmanuel Buabeng", "Frank Li", "Stefan Arroyo-Cottie
 # this is a lubridate function. This is part of Tidyverse in name but still needs a package. They say it is convenient. 
 
   # base R
-  # Date = as.POSIXct(c(...), format = %m%d)
+  # Date = as.POSIXct(c(...), format = %m%d) %>% 
 
    Date = parse_date_time(c("6/1", "6/2", "6/2", "6/2", "6/2", "6/2", "6/2", "6/2", "6/3", "6/3", "6/3", "6/3", "6/3", "6/3", "6/3", "6/3", "6/3", "6/5", "6/5", "6/5", "6/5", "6/5", "6/5", "6/9", "6/9", "6/7", "6/9", "6/11", "6/11", "6/7", "6/7", "6/7", "6/7", "6/8", "6/7", "6/7", "6/8", "6/8", "6/8", "6/8", "6/9"), orders = "md")) %>% 
   arrange(Date) %>% 
