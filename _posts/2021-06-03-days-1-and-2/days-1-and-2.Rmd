@@ -50,7 +50,7 @@ error_plot <- ggplot(top_errors, aes(`Names`, `Score`, fill = `Score`)) +
 error_plot
 ```
 
-We began the course on 6/1 with a class of 81 students. We have been able to install the necessary software (R and Rstudio) on every computer except one which we are still troubleshooting. On 6/2, we met again with a class of 79 students, inclduding new members from last-minute recommendations. On 6/4, we held our third meeting with roughly 60 students.
+We began the course on 6/1 with a class of 81 students. We have been able to install the necessary software (R and Rstudio) on every computer except one which we are still troubleshooting. On 6/2, we met again with a class of 79 students, inclduding new members from last-minute recommendations. 
 
 Heather had the early lead, catching the most and most major mistakes the first two days. As the errors were major, many expressed confusion in the Discord. Heather responded to nearly all of them. 
 
