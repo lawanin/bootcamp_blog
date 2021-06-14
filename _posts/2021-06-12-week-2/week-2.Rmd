@@ -398,8 +398,10 @@ different_plot
   
 # select(-) does not seem to work if tibble is still grouped by the variable  
   
-  select(-total_in_decile) %>% 
-  rename(decile = deciles)
+  select(city, race, deciles, total_in_decile, percent_race_in_decile ) %>% 
+  rename(decile = deciles) %>% 
+  rename(percent_decile = percent_race_in_decile) %>% 
+  rename(total_decile = total_in_decile)
 ```
 
 Unlike in the plot, racial composition here is percent members of race in a decile.
