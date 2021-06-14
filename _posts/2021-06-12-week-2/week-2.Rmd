@@ -271,8 +271,8 @@ It is interesting not only that there is a class of unusually high offenders,  b
 
 ```{r for presenting clean on distill}
 clean_data_presentation <- clean_data %>% 
-  rename(deciles_of_officers_by_complaint_totals = compl_dec,
-         percentage_of_complaints_in_decile =  compl_perc)
+  rename(deciles = compl_dec,
+         percentage_of_complaints_about_decile =  compl_perc)
 
 rmarkdown::paged_table(clean_data_presentation)
 ```
