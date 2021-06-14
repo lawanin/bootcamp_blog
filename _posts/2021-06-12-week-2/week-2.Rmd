@@ -4,7 +4,7 @@ description: |
   Takeaways from a Recent Financial Times Article
 author:
   - name: Nosa Lawani
-    url: https://example.com/norajones
+    url: 
 date: 06-12-2021
 output:
   distill::distill_article:
